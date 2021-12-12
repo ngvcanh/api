@@ -12,6 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/ngvcanh/api.git"
   },
+  "author": "Ken Nguyen <ngvcanh2014@gmail.com> (https://kensoni.vn/)",
+  "bugs": {
+    "url": "https://github.com/ngvcanh/api/issues"
+  },
+  "homepage": "https://github.com/ngvcanh/api#readme",
   "keywords": [
     "api",
     "axios",
