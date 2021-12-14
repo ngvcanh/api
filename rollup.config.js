@@ -5,8 +5,10 @@ const rollup = {
   input: 'src/index.ts',
   output: [
     {
-      file: "./dist/index.js",
+      file: pkg.module,
       format: 'es',
+      exports: 'named',
+      sourcemap: true
     },
   ],
   external: [
@@ -14,8 +16,9 @@ const rollup = {
   ],
   plugins: [
     typescript({
-      typescript: require('typescript'),
-    }),
+      rollupCommonJSResolveHack: false,
+      clean: true,
+    })
   ],
 };
 

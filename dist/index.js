@@ -201,3 +201,4 @@ var apiHead = function (uri, data, headers, configs) {
 };
 
 export { ApiInstance, EContentType, EMethod, apiDelete, apiGet, apiHead, apiPatch, apiPost, apiPut, createApi, createAuthorization, createContentType };
+//# sourceMappingURL=index.js.map
